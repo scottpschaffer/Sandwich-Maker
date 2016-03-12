@@ -21,6 +21,6 @@ calcButton.addEventListener("click", function(){
   var totalCost = document.getElementById("tCost");
   totalCost.innerHTML = "<p>Your final order is: </p><p>Bread: " + SandwichMaker.getBreads().toString() + 
                         "</p><p>Meat: " + SandwichMaker.getMeats().toString() + "</p><p>Cheese: " +
-                        SandwichMaker.getCheeses().toString() + "</p><p>Vegetables: " + SandwichMaker.getVeggies.toString() +
+                        SandwichMaker.getCheeses().toString() + "</p><p>Vegetables: " + SandwichMaker.getVeggies().toString() +
                         "</p><p>Condiments: " + SandwichMaker.getConds().toString() + "</p><p>Total Cost: $" + toCost + "</p>";
 });
