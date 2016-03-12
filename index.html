@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Sandwich Maker</title>
+  <link rel="stylesheet" type="text/css" href="Sandwich.css">
+</head>
+<body>
+  
+  <h1>Sandwich Maker</h1>
+  <h3>Select from the options below to customize your sandwich</h3>
+
+  <fieldset>
+    <legend>Bread Options</legend>
+    <div>
+      <input type="checkbox" id="white" class="bread" value="White"><label for="white">White</label>
+      <input type="checkbox" id="wheat" class="bread" value="Wheat"><label for="wheat">Wheat</label>
+      <input type="checkbox" id="rye" class="bread" value="Rye"><label for="rye">Rye</label>
+      <input type="checkbox" id="pumpernickel" class="bread" value="Pumpernickel"><label for="pumpernickel">Pumpernickel</label>
+    </div>
+  </fieldset>
+
+<fieldset>
+    <legend>Meat Options</legend>
+    <div>
+      <input type="checkbox" id="turkey" class="meat" value="Turkey"><label for="turkey">Turkey</label>
+      <input type="checkbox" id="ham" class="meat" value="Ham"><label for="ham">Ham</label>
+      <input type="checkbox" id="roastbeef" class="meat" value="Roast_Beef"><label for="roastbeef">Roast Beef</label>
+      <input type="checkbox" id="salami" class="meat" value="Salami"><label for="salami">Salami</label>
+    </div>
+  </fieldset>
+
+  <fieldset>
+    <legend>Cheese Options</legend>
+    <div>
+      <input type="checkbox" id="american" class="cheese" value="American"><label for="american">American</label>
+      <input type="checkbox" id="swiss" class="cheese" value="Swiss"><label for="swiss">Swiss</label>
+      <input type="checkbox" id="provalone" class="cheese" value="Provalone"><label for="provalone">Provalone</label>
+      <input type="checkbox" id="pepperjack" class="cheese" value="Pepperjack"><label for="pepperjack">Pepperjack</label>
+    </div>
+  </fieldset>
+
+  <fieldset>
+    <legend>Vegetable Options</legend>
+    <div>
+      <input type="checkbox" id="lettuce" class="veggie" value="Lettuce"><label for="lettuce">Lettuce</label>
+      <input type="checkbox" id="tomatoes" class="veggie" value="Tomatoes"><label for="tomatoes">Tomatoes</label>
+      <input type="checkbox" id="pickles" class="veggie" value="Pickles"><label for="pickles">Pickles</label>
+      <input type="checkbox" id="onions" class="veggie" value="Onions"><label for="onions">Onions</label>
+      <input type="checkbox" id="olives" class="veggie" value="Olives"><label for="olives">Olives</label>
+    </div>
+  </fieldset>
+
+  <fieldset>
+    <legend>Condiment Options</legend>
+    <div>
+      <input type="checkbox" id="mayonnaise" class="cond" value="Mayonnaise"><label for="mayonnaise">Mayonnaise</label>
+      <input type="checkbox" id="mustard" class="cond" value="Mustard"><label for="mustard">Mustard</label>
+      <input type="checkbox" id="ketchup" class="cond" value="Ketchup"><label for="ketchup">Ketchup</label>
+    </div>
+    </fieldset>
+
+    <button id="btnSelect" class="btnSelect">Calculate Order</button>
+
+    <div id="tCost"><p>Your final order is: </p></div>
+
+    <script type="text/javascript" src="javascripts/SandwichMaker.js"></script>
+    <script type="text/javascript" src="javascripts/Breads.js"></script>
+    <script type="text/javascript" src="javascripts/Meats.js"></script>
+    <script type="text/javascript" src="javascripts/Cheeses.js"></script>
+    <script type="text/javascript" src="javascripts/Veggies.js"></script>
+    <script type="text/javascript" src="javascripts/Condiments.js"></script>
+    <script type="text/javascript" src="javascripts/SandwichForm.js"></script>
+  </body>
+</html>
